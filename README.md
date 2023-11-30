@@ -1,17 +1,24 @@
-# rpi_first_boot_tool
-rpi_first_boot_tool
+# Raspberry Pi First Boot Tool
+
+Raspberry Pi projelerinize hızlı başlamanız için gerekli olan temel programları ve konfigirasyonları yapar.
 
 
-  Raspberry Pi ile çalışmaya başlandığında lazım olabilecek bazı programlar kurulur ve el ile yapılması gereken konfigirasyonlar yapılır.
-Kurulan programlar:
-*git
-*pip
-*netatalk //AFP dosya sistemi sağlar #https://github.com/Netatalk/netatalk
-*vim //Kullanışlı bir yazı düzenleyicisidir
+## Yüklenen programlar
 
+- git
+- pip
+- netatalk  //  AFP dosya sistemi sağlar    #https://github.com/Netatalk/netatalk
+- vim  // Kullanışlı bir yazı düzenleyicisidir
 
+## Uyarı
 
+Bu kod bloğu bazı işlemler için root istemektedir. Yetkilendirme vermeden önce işlemlerin sizin sisteminizi etkilemediğinden emin olunuz.
 
+## Nasıl kullanılır?
 
-Zaman kaybetmeden çalışmaya başlamanız için çalışmaya devam edeceğim.
-//Lunarov
+yapmanız gereken tek şey aşağıdaki kod satırını konsolunuza yazmaktır.
+
+```bash 
+sudo ./setup1.sh
+```
+  
