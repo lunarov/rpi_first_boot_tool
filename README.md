@@ -1,6 +1,6 @@
 # Raspberry Pi First Boot Tool
 
-Raspberry Pi projelerinize hızlı başlamanız için gerekli olan temel programları ve konfigirasyonları yapar.
+Raspberry Pi projelerinize hızlı başlamanız için gerekli olan temel programları yükler ve konfigirasyonlarını yapar.
 
 
 ## Yüklenen programlar
